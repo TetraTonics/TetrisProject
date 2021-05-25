@@ -48,10 +48,14 @@ public class Tetris extends Canvas implements KeyListener, Runnable
     //we will draw all changes on the background image
     Graphics graphToBack = back.createGraphics();
 
-    Block t1 = new Block(100, 100, 20, 20, Color.MAGENTA);
-    Block t2 = new Block(124, 100, 20, 20, Color.MAGENTA);
+    Block t1 = new Block(100, 100, 30, 30, Color.MAGENTA);
+    Block t2 = new Block(135, 100, 30, 30, Color.MAGENTA);
+    Block t3 = new Block(170, 100, 30, 30, Color.MAGENTA);
+    Block t4 = new Block(205, 100, 30, 30, Color.MAGENTA);
     t1.draw(graphToBack);
     t2.draw(graphToBack);
+    t3.draw(graphToBack);
+    t4.draw(graphToBack);
                 
     twoDGraph.drawImage(back, null, 0, 0);
   }
