@@ -1,10 +1,11 @@
-class Main {
-  public static void main(String[] args) {
-    TheGame.main(args);
+public class Main
+{
+  public static void main( String args[] )
+  {
+    System.out.println("Starting the game...");
+    TheGame game = new TheGame();
   }
 }
-
-
 
 //update test update test update test
 
